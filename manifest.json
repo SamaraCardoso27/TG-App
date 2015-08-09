@@ -1,0 +1,19 @@
+{
+  "name": "e-Fingerprint",
+  "version": "0.6",
+  "description": "App para o TG",
+  "manifest_version": 2,
+  "minimum_chrome_version": "40.0.2213.0",
+  "app": {
+    "background": {
+      "scripts": ["js/background.js"]
+    }
+  },
+  "icons": {
+    "128": "images/icon_128.png"
+  },
+  "permissions": ["usb"],
+  "optional_permissions": [ {"usbDevices": [{"vendorId": 5265, "productId":32}]}] 
+}
+
+
