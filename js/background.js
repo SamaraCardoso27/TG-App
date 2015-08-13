@@ -1,11 +1,11 @@
 chrome.app.runtime.onLaunched.addListener(function() {
   chrome.app.window.create('index.html', {
     innerBounds: {
-      width: 670,
-      height: 350,
-      minWidth: 670,
-      minHeight: 350
+      width: 1000,
+      height: 700,
+      minWidth: 1000,
+      minHeight: 700
     },
-    id: "ChromeApps-Sample-USB-DeviceInfo"
+    id: "App-for-TG"
   });
 });

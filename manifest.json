@@ -12,8 +12,11 @@
   "icons": {
     "128": "images/icon_128.png"
   },
-  "permissions": ["usb"],
-  "optional_permissions": [ {"usbDevices": [{"vendorId": 5265, "productId":32}]}] 
+  "permissions": ["usb","system.network"],
+    "sockets": {
+    "tcpServer" : {
+      "listen": ["*"]
+    }
+  },
+  "optional_permissions": [ {"usbDevices": [{"vendorId": 5265, "productId":32}]}]
 }
-
-
